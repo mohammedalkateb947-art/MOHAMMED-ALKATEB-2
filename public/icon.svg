@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="mshwarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="50%" stop-color="#2d6a4f" />
+      <stop offset="100%" stop-color="#40916c" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background with Safe Padding for Maskable Icons -->
+  <rect width="512" height="512" rx="120" fill="url(#mshwarGrad)" />
+  <!-- Inner circular badge -->
+  <circle cx="256" cy="256" r="190" fill="#ffffff" fill-opacity="0.1" />
+  <!-- Delivery Scooter & Rider Icon -->
+  <g transform="translate(100, 120)" filter="url(#shadow)">
+    <!-- Helmet & Rider Head -->
+    <circle cx="160" cy="50" r="32" fill="#52b788" />
+    <!-- Delivery Backpack -->
+    <rect x="70" y="70" width="55" height="70" rx="12" fill="#d8f3dc" />
+    <!-- Body -->
+    <path d="M125 80 L180 80 L195 140 L125 140 Z" fill="#ffffff" />
+    <!-- Scooter Chassis -->
+    <path d="M50 190 Q120 190 150 160 L230 160 L250 110" stroke="#ffffff" stroke-width="18" stroke-linecap="round" fill="none" />
+    <path d="M230 110 L270 110" stroke="#52b788" stroke-width="14" stroke-linecap="round" />
+    <!-- Rear Wheel -->
+    <circle cx="70" cy="200" r="36" fill="#1b4332" stroke="#ffffff" stroke-width="12" />
+    <circle cx="70" cy="200" r="14" fill="#52b788" />
+    <!-- Front Wheel -->
+    <circle cx="240" cy="200" r="36" fill="#1b4332" stroke="#ffffff" stroke-width="12" />
+    <circle cx="240" cy="200" r="14" fill="#52b788" />
+  </g>
+  <!-- Arabic Typography "مشوار" -->
+  <text x="256" y="440" font-family="'Cairo', sans-serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">مشوار</text>
+</svg>

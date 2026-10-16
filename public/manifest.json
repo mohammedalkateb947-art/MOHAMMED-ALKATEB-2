@@ -1,0 +1,45 @@
+{
+  "id": "/",
+  "name": "مشوار | Mshwar Delivery",
+  "short_name": "مشوار",
+  "description": "منصة وتطبيق مشوار لتوصيل وجبات الطعام والطرود السريعة بنظام تتبع مباشر وإدارة متكاملة للمطاعم والكبائن والمحاسبين والمطبخ KDS",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1b4332",
+  "theme_color": "#1b4332",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["food", "delivery", "shopping"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الرئيسية",
+      "short_name": "الرئيسية",
+      "description": "تصفح قائمة الطعام والعروض",
+      "url": "/?tab=home",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "توصيل طرد",
+      "short_name": "طرد",
+      "description": "طلب كابتن لتوصيل مشوار خاص",
+      "url": "/?tab=custom_delivery",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

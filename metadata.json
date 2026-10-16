@@ -1,0 +1,6 @@
+{
+  "name": "مشوار | Mshwar Food Delivery",
+  "description": "منصة وتطبيق مشوار لتوصيل وجبات الطعام والطرود السريعة بنظام تتبع مباشر وإدارة متكاملة للمطاعم والكبائن والمحاسبين والمطبخ KDS",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
